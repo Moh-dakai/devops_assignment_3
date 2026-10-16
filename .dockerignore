@@ -1,0 +1,11 @@
+# .dockerignore — Files excluded from the Docker build context
+.git
+tests/
+scripts/
+grade.sh
+README.md
+compose.yaml
+.dockerignore
+.github/
+*.log
+.DS_Store

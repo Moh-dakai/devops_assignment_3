@@ -1,0 +1,6 @@
+# compose.yaml — Docker Compose configuration for DevOps CI Tool
+services:
+  app:
+    build: .
+    image: devops-ci-tool:latest
+    entrypoint: ["./app/app.sh"]
